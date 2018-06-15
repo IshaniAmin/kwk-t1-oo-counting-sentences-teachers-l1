@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    arr = self.split(/[!?.]+/)
-    arr.count
+    test = self.split(/[!?.]+/)
+    test.count
   end
 end
